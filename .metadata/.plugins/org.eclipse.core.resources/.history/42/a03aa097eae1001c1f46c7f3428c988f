@@ -1,0 +1,24 @@
+package br.com.glandata;
+
+public class Pilha {
+
+	public static void main(String[] args) {
+		
+		System.out.println("Inicio do método main");
+		
+		metodo1();
+		
+		
+		System.out.println("Fim do método main");
+
+	}
+
+	private static void metodo1() {
+		
+		System.out.println("Inicio do método 1");
+		
+		System.out.println("Fim do método 1");
+		
+	}
+
+}

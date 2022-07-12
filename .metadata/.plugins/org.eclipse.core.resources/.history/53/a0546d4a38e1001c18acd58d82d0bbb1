@@ -1,0 +1,10 @@
+package br.com.glandata.abstracao.service;
+
+public class Gerente extends Funcionario {
+
+	@Override
+	double calculahoras() {
+		return 0;
+	}
+
+}

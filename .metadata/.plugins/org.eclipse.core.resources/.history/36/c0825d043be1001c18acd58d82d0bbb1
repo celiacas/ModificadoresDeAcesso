@@ -1,0 +1,29 @@
+package br.com.glandata.abstracao.service;
+
+public class Carro implements Veiculo {
+
+	@Override
+	public String setNome(String nome) {
+		// TODO Auto-generated method stub
+		return null;
+	}
+
+	@Override
+	public void liga() {
+		// TODO Auto-generated method stub
+
+	}
+
+	@Override
+	public int VelocidadeMaxima() {
+		// TODO Auto-generated method stub
+		return 0;
+	}
+
+	@Override
+	public void buzina() {
+		// TODO Auto-generated method stub
+
+	}
+
+}

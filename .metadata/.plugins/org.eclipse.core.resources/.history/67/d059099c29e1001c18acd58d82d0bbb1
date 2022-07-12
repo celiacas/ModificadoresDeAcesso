@@ -1,0 +1,17 @@
+package br.com.glandata.polimorfismo;
+
+/**
+ * Hello world!
+ *
+ */
+public class App 
+{
+    public static void main( String[] args )
+    {
+  
+    	String texto = "nome-do-projeto:Glandata.Polimorfismo";
+    	
+    	
+    	
+    }
+}

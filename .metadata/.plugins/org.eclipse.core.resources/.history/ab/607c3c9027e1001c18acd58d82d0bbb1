@@ -1,0 +1,10 @@
+import java.util.logging.Formatter;
+
+public class removetraco extends Formatter{
+	
+	public String remove(String text) {
+		return text.replaceAll(".", "");
+		
+	}
+
+}

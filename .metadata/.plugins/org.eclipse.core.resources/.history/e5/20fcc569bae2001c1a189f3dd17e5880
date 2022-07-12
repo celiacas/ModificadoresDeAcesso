@@ -1,0 +1,14 @@
+package br.com.glandata.main;
+
+import br.com.glandata.enums.PerfilUsuario;
+
+public class TestaTipoPerfil {
+
+	public static void main(String[] args) {
+		
+		PerfilUsuario perfilUsuario = PerfilUsuario.ADMIN;
+		System.out.println(perfilUsuario);
+
+	}
+
+}

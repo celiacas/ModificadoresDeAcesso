@@ -1,0 +1,14 @@
+   		<!-- JAVASCRIPT -->
+ 		<div th:fragment="scripts">
+        <script th:src="@{/assets/libs/jquery/jquery.min.js}"></script>
+        <script th:src="@{/assets/libs/bootstrap/js/bootstrap.bundle.min.js}"></script>
+        <script th:src="@{/assets/libs/metismenu/metisMenu.min.js}"></script>
+        <script th:src="@{/assets/libs/simplebar/simplebar.min.js}"></script>
+        <script th:src="@{/assets/libs/node-waves/waves.min.js}"></script>
+        <script th:src="@{/assets/js/app.js}"></script>
+		</div> 
+        
+        <!-- Retirada a linha html não é apresentado no fonte linhas de html antes de depois
+        do div, ficando o codigo igual ao original, mas não gera erro no sistema.
+        A tag HTML deve ser unica na pagina.
+        Para manter o html e utilizar os recursos do thymeleaf (autocomplite) necessário fragmentar  -->

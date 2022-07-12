@@ -1,0 +1,12 @@
+package br.com.glandata.polimorfismo;
+
+import service.Formatter;
+
+public class RemovePonto extends Formatter {
+	
+	@Override
+	public String remove(String text) {
+		return text.replaceAll(".", "");
+	}
+		
+}

@@ -1,0 +1,10 @@
+package br.com.glandata.polimorfismo;
+
+import java.util.logging.Formatter;
+
+public class RemovePonto extends Formatter {
+	
+		
+	}
+
+}

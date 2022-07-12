@@ -1,0 +1,15 @@
+package br.com.glandata;
+
+import java.nio.file.Path;
+
+public class Escrita {
+
+	public static void main(String[] args) {
+		
+		Path path = Path.of("C:\\TesteJava\\texto.txt");
+		
+		
+
+	}
+
+}

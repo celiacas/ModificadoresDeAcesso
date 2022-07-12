@@ -1,0 +1,29 @@
+package br.com.glandata;
+
+import java.util.ArrayList;
+
+public class TestaArrayList {
+
+public static void main(String[] args) {
+	
+	ArrayList<String> agenda = new ArrayList<String>();
+	agenda.add("Giancarlo;1199999999");
+	agenda.add("Amanda;119888888");
+	agenda.add("Alessandra;117777777");
+	agenda.add("Kelly;117777777");
+	
+	int i;
+	
+	System.out.printf("Percorrendo os contatos N da agenda usando indices");
+	int n = agenda.size();
+	for(i=0;i<=n;i++) {
+		System.out.println("Posição %d- %s \n ", i, agenda.get(i));
+		
+	}
+	
+	
+	//System.out.println(agenda);
+	
+}
+		
+}

@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<section name="Workbench">
+	<list key="RepositorySelectionPage.UsedUris">
+		<item value="ssh://git@github.com/celiacas/Estrutura-de-Decis-es-Fluxo.git"/>
+		<item value="git@github.com:celiacas/Estrutura-de-Decis-es-Fluxo.git"/>
+		<item value="git@github.com:celiacas/Variaveis-Tipo-Primitivos.git"/>
+		<item value="git@github.com:celiacas/01-PrimeiroPrograma.git"/>
+	</list>
+	<section name="GitImportWizard">
+	</section>
+	<section name="org.eclipse.egit.ui.internal.staging.StagingView">
+		<item key="MAIN_SASH_FORM_ORIENTATION_VERTICAL" value="false"/>
+		<item key="HORIZONTAL_SASH_FORM_WEIGHT" value="500,500"/>
+		<item key="STAGING_SASH_FORM_WEIGHT" value="500,500"/>
+		<item key="sortItemState" value="false"/>
+	</section>
+	<section name="GitCommitMessageComponent">
+	</section>
+	<section name="org.eclipse.egit.ui.internal.pull.PullResultDialog.dialogBounds">
+		<item key="DIALOG_X_ORIGIN" value="780"/>
+		<item key="DIALOG_Y_ORIGIN" value="368"/>
+	</section>
+</section>

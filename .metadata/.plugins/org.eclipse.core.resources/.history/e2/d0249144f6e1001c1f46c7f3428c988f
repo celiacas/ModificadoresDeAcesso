@@ -1,0 +1,57 @@
+package br.com.glandata;
+
+public class Pilha {
+
+	public static void main(String[] args) {	
+		System.out.println("Inicio do método main");		
+		try {
+			metodo1(4);
+		} catch (Exception e) {
+			// TODO Auto-generated catch block
+			e.printStackTrace();
+		}
+				
+		System.out.println("Fim do método main");
+
+	}
+
+	private static void metodo1(int imposto) throws Exception {
+		
+		System.out.println("Inicio do método 1");
+		
+		if(imposto<5) {
+			
+			Exception exception = new Exception();
+			System.out.println("O valor do imposto está incorreto!");
+			throw exception;
+			
+		}
+		metodo2();
+		
+		System.out.println("Fim do método 1");
+		
+	}
+		
+	private static void metodo2() {
+		System.out.println("Inicio do método 2");
+		try {
+			int numero = 4;	
+			System.out.println(numero/0);
+		} catch (ArithmeticException a) {
+			System.out.println(a);
+			
+		}catch (Exception e) {
+			System.out.println(e);
+		}finally {
+			//con.close;
+			// independente de erro ou não tendo erro executa o
+			// conteúdo
+		}
+		
+		for(int i=0;i<=5;i++) {
+			
+			System.out.println("O valor de i="+i);
+		}
+}
+	
+}

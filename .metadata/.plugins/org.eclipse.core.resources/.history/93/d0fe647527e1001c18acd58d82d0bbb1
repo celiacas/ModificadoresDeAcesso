@@ -1,0 +1,7 @@
+package br.com.glandata.polimorfismo;
+
+import service.Formatter;
+
+public class Formatacomponto extends Formatter{
+
+}

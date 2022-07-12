@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename local variable &apos;titularA&apos; in &apos;AtrinuicaoValoresObjetos.main(...)&apos; to &apos;titularB&apos;&#x0D;&#x0A;- Original project: &apos;04-GlanDataBank&apos;&#x0D;&#x0A;- Original element: &apos;AtrinuicaoValoresObjetos.main(String[]).titularA&apos;&#x0D;&#x0A;- Renamed element: &apos;titularA&apos;&#x0D;&#x0A;- Update references to refactored element" description="Rename local variable &apos;titularA&apos;" id="org.eclipse.jdt.ui.rename.local.variable" input="/src&lt;{AtrinuicaoValoresObjetos.java[AtrinuicaoValoresObjetos~main~\[QString;@titularA!172!203!180!187!QTitular;!0!false" name="titularB" references="true" stamp="1653424797199" version="1.0"/>
+</session>

@@ -1,0 +1,18 @@
+package br.com.glandata.service;
+
+import br.com.glandata.polimorfismo.model.Funcionarios;
+import lombok.Getter;
+
+public class ControleBonificacao {
+	
+	@Getter
+	private float somaBonificacao = 0.0f;
+	
+	public void Registra(Funcionarios funcionarios) {
+		float bonificacao = funcionarios.getBonificacao();
+		this.somaBonificacao += bonificacao;
+		
+	}
+	
+
+}

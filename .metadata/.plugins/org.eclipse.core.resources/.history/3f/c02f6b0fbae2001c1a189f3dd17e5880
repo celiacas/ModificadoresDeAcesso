@@ -1,0 +1,13 @@
+package br.com.glandata.enums;
+
+public enum PerfilUsuario {
+	
+	USER(1, "usuario", "Pode realizar consultas"), 
+	ADMIN(2, "administrador", "Pode parametrizar o sistema"), 
+	GER(3, "gerente", "Pode lançar informações críticas");
+
+	PerfilUsuario(int codigo, String nome, String descricao) {
+		
+	}
+
+}

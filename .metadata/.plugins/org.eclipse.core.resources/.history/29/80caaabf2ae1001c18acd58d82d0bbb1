@@ -1,0 +1,22 @@
+package br.com.glandata.polimorfismo;
+
+import br.com.glandata.polimorfismo.service.Formatter;
+import br.com.glandata.polimorfismo.service.RemovePonto;
+import br.com.glandata.polimorfismo.service.RemoveTraco;
+
+public class App 
+{
+    public static void main( String[] args )
+    {
+  
+    	String texto = "nome-do-projeto:Glandata.Polimorfismo";
+    	
+    	Formatter removeponte = new RemovePonto();
+    	System.out.println(removeponte.remove(texto));
+    	
+    	Formatter removeTraco = new RemoveTraco();
+    	System.out.println(removeTraco.remove(texto));
+    	
+    	
+    }
+}

@@ -1,0 +1,41 @@
+package br.com.glandata;
+
+import java.io.IOException;
+import java.nio.charset.StandardCharsets;
+import java.nio.file.Files;
+import java.nio.file.Path;
+import java.util.Arrays;
+import java.util.List;
+
+public class Escrita {
+
+	public static void main(String[] args) throws IOException {
+		
+		Path path = Path.of("C:\\TesteJava\\texto.txt");
+		
+		String texto = "Arquivo e texto gerado com java e com suporte a acentuação";
+		
+		Files.writeString(path, texto, StandardCharsets.UTF_8);
+		
+		List<String> listaUsuarios =  Arrays.asList("Ailton", "Camila", "Pedro", "Kelly", "Gian");
+		List<String> listaTelefone =  Arrays.asList("123", "456", "789", "10112", "1234");
+		
+		Path path2 = Path.of("C:\\TesteJava\\texto.txt");
+		
+		StringBuffer stringbuffer = new StringBuffer();
+		stringbuffer.append("Lista de Usuários e Números de Linhas");
+		
+		int i =1;
+		
+		for(String usuario: listaUsuarios) {
+			stringbuffer.append("\nLinha " + i + ": \t"+usuario);
+			i++;
+		}
+		
+		Files.writeString(path2, stringbuffer, StandardCharsets.UTF_8);
+		
+		// Gerando CSV da lista de usuários
+		
+	}
+
+}

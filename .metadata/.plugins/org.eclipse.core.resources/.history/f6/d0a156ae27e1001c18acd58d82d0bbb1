@@ -1,0 +1,10 @@
+package br.com.glandata.polimorfismo;
+
+public class RemoveTraco extends Formatter{
+	
+	@Override
+	public String remove(String text) {
+		return text.replaceAll("-", "");
+	}
+
+}
